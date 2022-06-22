@@ -35,7 +35,7 @@
     <tbody>
         <tr>
             <td style="padding: 10px 10px;font-size: 12px">
-                <center><img src="{{Asset('assets/img/logo.png')}}" width="80px"><br>
+                <center><img src="{{Asset('assets/img/icon1.png')}}" width="80px"><br>
                     Phone : 0973.909.143
                 </center>
             </td>
@@ -63,7 +63,7 @@
                         </tr>
                         <tr>
                             <td width="20%" colspan="1"><b>Địa chỉ giao hàng : </b></td>
-                            <td width="80%" colspan="3">{{ $order->address }}</td>
+                            <td width="40%" colspan="3">{{ $order->address }}</td>
                         </tr>
                     </tbody>
                 </table>
@@ -92,7 +92,7 @@
                             <td width="40%">{{ $item['type'] }} - {{ $item['item'] }}</td>
                             <td width="10%">{{ $item['price'] }}</td>
                             <td width="25%">{{ $item['qty'] }}</td>
-                            <td width="20%">{{ $item['qty'] * $item['price'].$currency }}</td>
+                            <td width="20%">{{ $item['qty'] * $item['price'].$currency }}.000</td>
                         </tr>
 
 @foreach($it->getAddon($item['id'],$order->id) as $add)
@@ -120,7 +120,7 @@
                             <td width="40%">&nbsp;</td>
                             <td width="10%">&nbsp;</td>
                             <td width="25%" class="text-center"><b>Tổng</b></td>
-                            <td width="20%" class="text-right"><b>{{ array_sum($total).$currency }}</b></td>
+                            <td width="20%" class="text-right"><b>{{ array_sum($total).$currency }}.000</b></td>
                         </tr>
 @if($order->discount)
 						<tr>
@@ -128,7 +128,7 @@
 							<td width="40%">&nbsp;</td>
 							<td width="10%">&nbsp;</td>
 							<td width="25%" class="text-center"><b>Giảm giá</b></td>
-							<td width="20%" class="text-right"><b>{{ $order->discount.$currency }}</b></td>
+							<td width="20%" class="text-right"><b>{{ $order->discount.$currency }}.000</b></td>
 						</tr>
 @endif
 
@@ -146,7 +146,7 @@
                             <td width="40%">&nbsp;</td>
                             <td width="10%">&nbsp;</td>
                             <td width="25%" class="text-center"><b>Tổng số tiền</b></td>
-                            <td width="20%" class="text-right"><b>{{ $order->total.$currency }}</b></td>
+                            <td width="20%" class="text-right"><b>{{ $order->total.$currency }}.000</b></td>
                         </tr>
                     </tbody>
                 </table>

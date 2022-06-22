@@ -51,7 +51,7 @@
 <td width="20%">&nbsp;{{ $row['date'] }}</td>
 <td width="20%">&nbsp;{{ $row['user'] }}</td>
 <td width="20%">&nbsp;{{ $row['store'] }}</td>
-<td width="20%">&nbsp;{{ $row['amount'] }}</td>
+<td width="20%">&nbsp;{{ $row['amount'] }}.000</td>
 </tr>
 
 @endforeach	
@@ -61,7 +61,7 @@
 <td width="20%">&nbsp;<b>Tổng số đơn hàng</b></td>
 <td width="20%">&nbsp;<b>{{ count($total) }}</b></td>
 <td width="20%">&nbsp;<b>Tổng số tiền</b></td>
-<td width="20%">&nbsp;<b>{{ array_sum($total) }}đ</b></td>
+<td width="20%">&nbsp;<b>{{ array_sum($total) }}.000 VNĐ</b></td>
 </tr>
 
 </table>

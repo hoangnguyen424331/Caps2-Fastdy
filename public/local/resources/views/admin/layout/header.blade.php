@@ -12,7 +12,7 @@ function myTimer() {
         <ul class="nav align-items-center">
             <li class="nav-item" style="margin-left: 50px">
             <form action="{{ Asset(env('admin').'/search') }}">
-            <input type="text" name="q" class="form-control" style="width:700px;padding: 20px 20px" placeholder="Nhập ID đơn hàng hoặc số điện thoại khách hàng">
+            <input type="text" name="q" class="form-control" style="width:700px;padding: 20px 20px" placeholder="Nhập số điện thoại khách hàng">
             </form>
             </li>
         </ul>

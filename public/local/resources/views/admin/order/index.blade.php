@@ -71,8 +71,8 @@
 
 <div class="row" style="font-size: 12px;color:red">
 <div class="col-md-6">Phí giao hàng : {{ $row->d_charges.$currency }}</div>
-<div class="col-md-3">Giảm giá : {{ $row->discount.$currency }}</div>
-<div class="col-md-3">Tổng : {{ $row->total.$currency }}</div>
+<div class="col-md-3">Giảm giá : {{ $row->discount.$currency }}.000</div>
+<div class="col-md-3">Tổng : {{ $row->total.$currency }}.000</div>
 </div><hr>
 
 @if($row->notes)

@@ -46,9 +46,9 @@
 </div>
 <div class="card-footer">
 <div class="d-flex  justify-content-between">
-<h6 class="m-b-0 my-auto"><span class="opacity-75"> <i class="mdi mdi-information"></i> Muốn xem nhiều dữ liệu hơn</span>
+{{-- <h6 class="m-b-0 my-auto"><span class="opacity-75"> <i class="mdi mdi-information"></i> Muốn xem nhiều dữ liệu hơn</span>
 </h6>
-<a href="#!" class="btn btn-white shadow-none">Nhận báo cáo đầy đủ</a>
+<a href="#!" class="btn btn-white shadow-none">Nhận báo cáo đầy đủ</a> --}}
 </div>
 </div>
 </div>

@@ -42,7 +42,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="menu-item ">
+                {{-- <li class="menu-item ">
                     <a href="{{ Asset(env('admin').'/setting') }}" class=" menu-link">
                         <span class="menu-label">
                             <span class="menu-name">Cấu hình</span>
@@ -52,7 +52,7 @@
                             </i>
                         </span>
                     </a>
-                </li>
+                </li> --}}
                 <li class="menu-item ">
                     <a href="{{ Asset(env('admin').'/text/add') }}" class=" menu-link">
                         <span class="menu-label">
@@ -129,7 +129,7 @@
         </li>
         <li class="menu-item @if($page === 'user') active @endif">
             <a href="{{ Asset(env('admin').'/user') }}" class="menu-link">
-                <span class="menu-label"><span class="menu-name">Quản lý nhà hàng</span></span>
+                <span class="menu-label"><span class="menu-name">Quản lý cửa hàng</span></span>
                 <span class="menu-icon">
                     <i class="icon-placeholder mdi mdi-home"></i>
                 </span>

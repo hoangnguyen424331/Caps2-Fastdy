@@ -55,10 +55,10 @@
 <label for="inputEmail6">Tên</label>
 <input type="text" value="{{ $data->name }}" class="form-control" id="inputEmail6" name="name" required="required">
 </div>
-<div class="form-group col-md-6">
+{{-- <div class="form-group col-md-6">
 <label for="inputEmail4">Email</label>
 <input type="email" class="form-control" id="inputEmail4" name="email"  required="required">
-</div>
+</div> --}}
 </div>
 
 <div class="form-row">
@@ -67,21 +67,21 @@
 <input type="text" class="form-control" id="asd" name="username" value="{{ $data->username }}" required="required">
 </div>
 
-<div class="form-group col-md-4">
+{{-- <div class="form-group col-md-4">
 <label for="asd">Logo</label>
 <input type="file" class="form-control" id="asd" name="logo">
-</div>
+</div> --}}
 
-<div class="form-group col-md-2">
+{{-- <div class="form-group col-md-2">
 @if($data->logo)
 <img src="{{ Asset('upload/admin/'.$data->logo) }}" width="50" style="float: right">
 @endif
-</div>
+</div> --}}
 </div>
 
 <div class="form-row">
 <div class="form-group col-md-6">
-<label for="asd">Đơn vị tiền <small>(ví dụ: VNĐ)</small></label>
+<label for="asd">Đơn vị tiền <small>( VNĐ)</small></label>
 <input type="text" class="form-control" id="asd" name="currency" value="{{ $data->currency }}" required="required">
 </div>
 {{-- <div class="form-group col-md-6">
@@ -110,18 +110,18 @@
 <input type="text" class="form-control" id="asd" name="paypal_client_id" value="{{ $data->paypal_client_id }}">
 </div>
 
-{{-- <div class="form-group col-md-12">
+ {{-- <div class="form-group col-md-12">
 <label for="asd">Stripe Publish Key</label>
 <input type="text" class="form-control" id="asd" name="stripe_client_id" value="{{ $data->stripe_client_id }}">
 </div> --}}
 
-{{-- <div class="form-group col-md-12">
+ {{-- <div class="form-group col-md-12">
 <label for="asd">Stripe API Key</label>
 <input type="text" class="form-control" id="asd" name="stripe_api_id" value="{{ $data->stripe_api_id }}">
 </div> --}}
+ </div>
 </div>
-</div>
-</div>
+</div> 
 {{-- <h4>Liên kết mạng xã hội</h4>
 
 <div class="card py-3 m-b-30">

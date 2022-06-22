@@ -91,7 +91,7 @@
 
 <div class="form-row">
 <div class="form-group col-md-12">
-<label for="inputEmail6">Đổi mật khẩu (<i>Nhập mật khẩu mới nếu bạn muốn thay đổi mật khẩu hiện tại.</i>)</label>
+<label for="inputEmail6">Nhập mật khẩu (<i></i>)</label>
 <input type="Password" name="password" class="form-control">
 </div>
 </div>

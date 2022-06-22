@@ -23,7 +23,7 @@
 <table class="table table-hover ">
 <thead>
 <tr>
-<th>Icon</th>
+{{-- <th>Icon</th> --}}
 <th>Tên</th>
 <th>Loại</th>
 <th style="text-align: right">Tuỳ chọn</th>
@@ -35,7 +35,7 @@
 @foreach($data as $row)
 
 <tr>
-<td width="25%">@if($row->icon) <img src="{{ Asset('upload/language/'.$row->icon) }}" height="30"> @endif</td>
+{{-- <td width="25%">@if($row->icon) <img src="{{ Asset('upload/language/'.$row->icon) }}" height="30"> @endif</td> --}}
 <td width="25%">{{ $row->name }}</td>
 <td width="25%">@if($row->type == 0) Trái sang phải @else Phải sang trái @endif</td>
 

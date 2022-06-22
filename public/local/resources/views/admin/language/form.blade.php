@@ -16,10 +16,10 @@
 
 
 <div class="form-row">
-<div class="form-group col-md-6">
+{{-- <div class="form-group col-md-6">
 <label for="inputEmail6">Icon <small>(512x512)</small></label>
 <input type="file" name="img" class="form-control">
-</div>
+</div> --}}
 
 <div class="form-group col-md-6">
 <label for="inputEmail6">Sắp xếp</label>
